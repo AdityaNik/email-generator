@@ -54,9 +54,10 @@ const EmailComponent = () => {
             });
         } catch (err) {
             setLoading(false);
+
             toast({
                 title: "Ahhhh, AI failed",
-                description: "I gusse AI doesn't want to help you at this movement.",
+                description: `I gusse AI doesn't want to help you at this movement. Got n error ${err}`,
             });
         }
     };

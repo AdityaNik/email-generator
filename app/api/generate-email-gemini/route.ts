@@ -1,4 +1,3 @@
-import { OpenAI } from '@langchain/openai'
 import { ChatGoogleGenerativeAI } from '@langchain/google-genai'
 import { PromptTemplate } from '@langchain/core/prompts';
 import { NextRequest, NextResponse } from 'next/server';
