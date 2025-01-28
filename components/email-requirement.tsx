@@ -117,6 +117,10 @@ const EmailComponent = () => {
                             <SelectItem value="meeting">Meeting Request</SelectItem>
                             <SelectItem value="followup">Follow Up</SelectItem>
                             <SelectItem value="thankyou">Thank You</SelectItem>
+                            <SelectItem value="job-application">Job Application/cold email</SelectItem>
+                            <SelectItem value="apology">Apology</SelectItem>
+                            <SelectItem value="event-invitation">Event Invitation</SelectItem>
+                            <SelectItem value="collaboration-opportunity">Collaboration Opportunity</SelectItem>
                         </SelectContent>
                     </Select>
                 </div>
